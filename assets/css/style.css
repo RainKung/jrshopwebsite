@@ -1,0 +1,628 @@
+/* CSS WEB SET */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+	background: #f7f7f7;
+}
+
+
+
+.navbar-manu {
+	background: #fff;
+	width: 100%;
+	height: 90px;
+	box-shadow: 0 4px 8px -2px rgba(0,0,0,0.2);
+	z-index: 1000;
+
+}
+
+.manu-nav {
+	display: flex;
+	float: right;
+	display: block;
+}
+
+.de-nav {
+	display: inline-block;
+	line-height: 90px;
+}
+
+.c-nav {
+	font-size: 18px;
+	margin: 8px;
+	color: #000;
+} 
+
+
+.c-nav:hover {
+	color: #2ACAEA;
+}
+
+.logo{
+	height: 60px;
+	margin-top: 10px;
+}
+
+.navbar-top {
+	display: flex;
+	height: 40px;
+	width: 100%;
+	background: #fff;
+	background: #262626;
+	font-family: 'Prompt', sans-serif;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.link-t {
+	color: #fafafa;
+	display: inline-block;
+	line-height: 30px;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
+.link-t:hover {
+	color: #474747;
+}
+
+.ul-li {
+	float: right;
+	display: inline-block;
+}
+
+.ultop-nav {
+	width: 100%;
+	height: 30px;
+	padding-top: 5px;
+}
+
+
+.bg-top {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 80px 0px 230px;
+	position: relative;
+	z-index: 1;
+	margin: auto;
+	float: none;
+	max-width: 100%;
+}
+
+.bg-top-sh {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 80px 0px 120px;
+	position: relative;
+	z-index: 1;
+	margin: auto;
+	float: none;
+	max-width: 100%;
+}
+
+.promote-text {
+	color: #fff;
+	text-align: center;
+	text-shadow: 2px 2px 10px #000;
+}
+
+.h-4,.h-5 {
+	padding-top: 20px;
+}
+
+.btn-rgh {
+	color: #212121;
+	padding: 5px 20px;
+	background: #fff;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	margin: 10px;
+}
+
+.btn-rgh:hover {
+	color: #fff;
+	background: #212121;
+	border: 2px solid #fff;
+}
+
+.bg-set {
+	border-radius: 5px;
+	background: url(https://www.waterandsportspt.com/wp-content/uploads/2016/12/dark-bg.jpg);
+}
+
+.icon-res {
+	display: none;
+	line-height: 90px;
+	font-size: 30px;
+	float: right;
+	color: #000;
+}
+
+.res-i {
+	border: 2px solid #000;
+	padding: 10px 10px 5px;
+	border-radius: 3px;
+}
+
+.bg-foot {
+	background-image: url(https://www.waterandsportspt.com/wp-content/uploads/2016/12/dark-bg.jpg);
+	width: 100%;
+	height: auto;
+}
+
+.img-topup-h {
+	text-align: center;
+	display: block;
+	margin-bottom: 40px;
+}
+
+.img-topup-h img {
+	margin-bottom: 20px;
+	border-radius: 2px;
+}
+
+.panel,.accordion {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 2px;
+}
+
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+.active-h, .accordion:hover {
+	background-color: #262626;
+	color: #fff;
+}
+
+.accordion:after {
+	content: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active-h:after {
+	content: "\2212";
+}
+
+.panel {
+	padding: 0px 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.btn {
+	width: 100%;
+}
+
+.foot-bar {
+	width: 100%;
+	height: 80px;
+	background: #2e384d;
+	line-height: 80px;
+}
+
+.nav-foot {
+	background: #fff;
+	padding-bottom: 60px;
+}
+
+.set-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.detail-foot {
+	width: 500px;
+}
+
+.far.fa-check-circle,
+.far.fa-stars,
+.fas.fa-shield-alt 
+{
+	font-size: 150px;
+}
+
+.topup {
+	display: block;
+	padding: 10px;
+	overflow: hidden;
+	border: 1px solid #b8b8b8;
+	background: #e8e8e8;
+	z-index: 5;
+	position: relative;
+}
+
+.all-topup {
+	position: relative;
+	z-index: 10;
+}
+
+.card-pd-set{
+	position: relative;
+	margin-top: -100px;
+	z-index: 10;
+}
+
+.product-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.img-pd {
+	border-radius: 10px;
+	width:100%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border: 4px solid #000;
+}
+
+.faq-box {
+	margin-top: 20px;
+}
+
+.card-header.ch-topup {
+	border: 1px solid rgba(0,0,0,.125);
+	width: 50%;
+}
+
+.card-header:first-child{
+	border-radius: 2px;
+}
+
+.ar-down-topup i {
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 65px;
+	margin-top: 3px;
+}
+
+.ar-down-topup i.fa-sort-down {
+	top: 31.5%;
+}
+
+.ar-down-topup i.fa-sort-up {
+	top: 32.5%;
+}
+
+.topup-detail {
+	display: none;
+	position: absolute;
+	z-index: 200;
+	width: 100%;
+	padding-right: 96px;
+	border-radius: 2px;
+}
+
+.op-topup {
+	border: 1px solid #ccc;
+	border-top: 0px;
+	background: #fff;
+}
+
+.select-topup {
+	display: block;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.set-lo {
+	position: relative;
+	margin-top: -100px;
+	z-index: 10;
+}
+
+.ar-select-topup i {
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 65px;
+	margin-top: 3px;
+}
+
+.ar-select-topup i.fa-sort-down {
+	top: 34.5%;
+}
+
+.ar-select-topup i.fa-sort-up {
+	top: 35.5%;
+}
+
+.bg-topupgift {
+	width: 100%
+	height:auto;
+	background: #ff4545;
+	border-radius: 2px;
+}
+
+.bg-topupgift img {
+	border-radius: 100%;
+}
+
+.lb-ip {
+	color: #ffc400;
+}
+
+.topup-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.nav-admin {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+	padding: 20px;
+	top: 150px;
+	background: rgba(0, 0, 0, 0.27);
+	height: auto;
+	width: auto;
+	left: 20px;
+	position: fixed;
+	border-radius: 5px;
+	z-index: 8;
+}
+.ul-navadmin {
+	display: none;
+	padding: 10px 75px;
+}
+
+.ul-navadmin li {
+	list-style-type: none;
+	font-size: 20px;
+	padding: 10px 0px;
+}
+
+.ul-navadmin li a{
+	color: #f1f1f1;
+}
+
+.icon-resadmin {
+	font-size: 25px;
+	color: #ccc;
+}
+
+.ul-navadmin li a:hover {
+	color: #ccc;
+}
+
+.exp-tp li {
+	list-style-type: none;
+	margin: 20px 0px;
+}
+
+.set-grid-fn {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 60px;
+    grid-row-gap: 60px;
+}
+
+.gird-edus {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 60px;
+    grid-row-gap: 60px;
+}
+
+.grid-pded {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.img-pded {
+	height: 300px;
+	width: 300px;
+	border: 2px solid #010101;
+	border-radius: 5px;
+	align-items: center;	
+}
+
+.img-auto-set {
+	height: 350px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+div.text-grey {
+	background: #bfbfbf;
+	color: #000;
+}
+
+div.text-grey:hover{
+	background: #a6a6a6;
+	color: #5c5c5c;
+}
+
+@media (max-width: 1200px) {
+	.set-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.topup-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 991px){
+	.manu-nav {
+		display: none;
+		line-height: 30px;
+		position: fixed;
+		width: 100%;
+		background: #fff;
+		left: 0;
+		text-align: center;
+		transition: all .5s;
+		z-index: 20;
+		border-bottom: 6px solid #222;
+		height: auto;
+		border-top: 2px solid #000;
+	}
+
+	.de-nav {
+		width: 100%;
+	}
+
+	.icon-res {
+		display: block;
+	}
+
+
+	.set-grid-fn {
+		grid-template-columns: 1fr;
+	}
+
+	.gird-edus {
+		grid-template-columns: 1fr;
+	}
+
+	.grid-pded {
+		grid-template-columns: 1fr;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.set-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.detail-foot {
+		width: auto;
+	}
+
+	.far.fa-check-circle,
+	.far.fa-stars,
+	.fas.fa-shield-alt 
+	{
+		font-size: 90px;
+	}
+	
+}
+
+@media (max-width: 576px) {
+	.far.fa-check-circle,
+	.far.fa-stars,
+	.fas.fa-shield-alt 
+	{
+		font-size: 150px;
+	}
+
+	.product-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.img-gift {
+		height: 200px;
+	}
+
+	.img-auto-set{
+		height: 250px;
+	}
+
+	.bg-top {
+		padding: 80px 0px;
+	}
+}
+
+@media (max-width: 473px) {
+	.bg-top {
+		padding: 20px 0px;
+	}
+}
+
+@media (max-width: 160px) {
+	.icon-res {
+		font-size: 20px;
+	}
+
+	.bg-top {
+		padding: 20px 0px;
+	}
+}
